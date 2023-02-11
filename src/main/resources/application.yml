@@ -12,3 +12,13 @@ spring:
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
+  batch:
+    job:
+      names: ${job.name:NONE}
+
+logging:
+  level:
+    root: info
+    com.psc.sample: debug
+
+
